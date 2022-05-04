@@ -1,0 +1,27 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid #ccc;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+  left: 15%;
+  bottom: 45%;
+  text-align: center;
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  }
+  
+  .MoAuth {
+    bottom: 50%;
+  }
+  
+  @media (min-width: 600px) {
+    .Modal {
+      width: 500px;
+      left: calc(50% - 250px);
+    }
+  }
+  

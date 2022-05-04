@@ -1,0 +1,56 @@
+.signin{
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.signin input{
+    margin: 10px 0;
+    font-size: inherit;
+}
+
+.signin h2{
+    margin-bottom: 10px;
+}
+
+.signin button{
+    cursor: pointer;
+    font-size: inherit;
+    border: 0;
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+}
+
+.signin button:focus{
+    outline: none;
+}
+
+.switch{
+    font-size: inherit;
+    cursor: pointer;
+    border: 0;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+    background-color: #efefef;
+    text-align: center;
+    line-height: 30px;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+
+}

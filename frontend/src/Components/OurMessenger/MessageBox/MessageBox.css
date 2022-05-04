@@ -1,0 +1,28 @@
+.messagebox{
+    padding: 10px;
+    /* background-color: #58fdeacf; */
+    display: inline-block;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.realuser{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.name{
+    font-size: smaller;
+    padding: 0 19px;
+
+}
+
+.realuser .name{
+    position: absolute;
+}
+
+.realuser .messagebox{
+    margin-top: 26px;
+}

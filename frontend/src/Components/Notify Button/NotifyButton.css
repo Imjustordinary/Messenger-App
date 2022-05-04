@@ -1,0 +1,25 @@
+.noti-button{
+    position: fixed;
+    bottom: 7%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #747474;
+  
+  animation: myNotiAction 0.7s infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes myNotiAction {
+    0% {
+        transform: translateY(-8px);
+      
+    }
+    50%{
+
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-8px);
+    }
+  }

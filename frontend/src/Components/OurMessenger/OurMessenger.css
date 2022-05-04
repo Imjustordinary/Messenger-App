@@ -1,0 +1,48 @@
+.messageinput{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.messageinput button{
+    background-color: white;
+    border: 0;
+    width: 20%;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 26%);
+    border-radius: 20px;  
+    height: inherit;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    min-height: 300px;
+    margin-top: 15px;
+}
+
+.messageinput button:hover{
+    background-color: #d4d4d4;
+}
+
+.messageinput button:focus{
+    outline: none;
+}
+
+.bot{
+    margin-bottom: 20px;
+}
+
+.messageinput input{
+    font-size: initial;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        width: 80%;
+    }
+
+    .messageinput{
+        width: 70%;
+    }
+  }
