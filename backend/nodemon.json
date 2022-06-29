@@ -1,0 +1,7 @@
+{
+    "env":{
+        "DB_USER":"jimmy",
+        "DB_PASSWORD":"dow4vqq3xYFzGJ9Q",
+        "DB_NAME":"messengerdb"
+    }
+}
